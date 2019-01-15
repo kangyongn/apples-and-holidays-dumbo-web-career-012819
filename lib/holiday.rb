@@ -53,6 +53,8 @@ def all_holidays_with_bbq(holiday_hash)
       item.each {|supply| list << day if supply == "BBQ"}
     end
   end
+  
+  list
 end
 
 
